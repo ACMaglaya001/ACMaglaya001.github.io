@@ -170,20 +170,21 @@ To add additional section, simply add additional `.education-block` elements.
 The Project section contains a number of `.project` elements that represent each of your projects. By default, it contains a 300x300 image under `.project-image` and relevant project information under `.project-info`. An example is as follows:
 
 ```HTML
-<div class="project">
-    <div class="project-image">
-        <img src="images/project.jpg" />
-    </div>
-    <!-- End .project-image -->
 
-    <div class="project-info">
-        <h3>Project Name Here</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
-        </p>
-        <a href="#">View Project</a>
-    </div>
-    <!-- End .project-info -->
+<div class="project">
+  <div class="project-image">
+    <img src="images/project.jpg"/>
+  </div>
+  <!-- End .project-image -->
+
+  <div class="project-info">
+    <h3>Project Name Here</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+    </p>
+    <a href="#">View Project</a>
+  </div>
+  <!-- End .project-info -->
 </div>
 ```
 
@@ -196,13 +197,15 @@ If you want to hide some projects by default, you can throw them in an additiona
 <div id="more-projects" class="row">
     <div class="project shadow-large">
         <div class="project-image">
-            <img src="images/project.jpg" />
+            <img src="../images/project.jpg"/>
         </div>
         <!-- End .project-image -->
         <div class="project-info">
             <h3>Project Name Here</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
+                urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
+                dapibus porta quam laoreet placerat.
             </p>
             <a href="#">View Project</a>
         </div>
